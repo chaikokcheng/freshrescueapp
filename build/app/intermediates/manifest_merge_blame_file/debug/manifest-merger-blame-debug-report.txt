@@ -15,18 +15,18 @@
 14-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/debug/AndroidManifest.xml:6:5-66
 14-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:52:1-61
-15-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:52:18-58
+15-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:54:1-61
+15-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:54:18-58
 16
 17    <uses-feature
-17-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:53:1-80
+17-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:55:1-80
 18        android:name="android.hardware.camera"
-18-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:53:15-53
+18-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:55:15-53
 19        android:required="true" />
-19-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:53:54-77
+19-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:55:54-77
 20    <uses-feature android:name="android.hardware.camera.autofocus" />
-20-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:54:1-66
-20-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:54:15-63
+20-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:56:1-66
+20-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:56:15-63
 21
 22    <uses-permission android:name="android.permission.FLASHLIGHT" />
 22-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-69

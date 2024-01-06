@@ -8,7 +8,9 @@
     <application
         android:name="${applicationName}"
         android:label="FreshRescue"
-        android:icon="@mipmap/launcher_icon">
+        android:icon="@mipmap/launcher_icon"
+        >
+        
         <activity
         
             android:name=".MainActivity"

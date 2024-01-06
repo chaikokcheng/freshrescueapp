@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:8:5-51:19
+INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:8:5-53:19
 MERGED from [:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
@@ -102,11 +102,11 @@ MERGED from [org.tensorflow:tensorflow-lite-api:2.14.0] /Users/chaikokcheng/.gra
 	android:name
 		INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-55:12
-INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-55:12
-INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-55:12
-INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-55:12
-MERGED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-55:12
+ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-57:12
+MERGED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-57:12
 MERGED from [:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_auth] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_storage] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
@@ -222,35 +222,35 @@ INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack202
 		INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-55:12
+		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-57:12
 		INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-55:12
+		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:1-57:12
 		INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.CAMERA
-ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:52:1-61
+ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:54:1-61
 MERGED from [:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-65
 MERGED from [:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-65
 MERGED from [:camera_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-65
 MERGED from [:camera_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:52:18-58
+		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:54:18-58
 uses-feature#android.hardware.camera
-ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:53:1-80
+ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:55:1-80
 MERGED from [:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-60
 MERGED from [:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-60
 	android:required
-		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:53:54-77
+		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:55:54-77
 		MERGED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/debug/AndroidManifest.xml
 	android:name
-		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:53:15-53
+		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:55:15-53
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:54:1-66
+ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:56:1-66
 	android:name
-		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:54:15-63
+		ADDED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:56:15-63
 uses-sdk
 INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml
