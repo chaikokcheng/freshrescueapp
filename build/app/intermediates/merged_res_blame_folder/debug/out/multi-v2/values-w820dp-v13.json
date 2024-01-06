@@ -4,7 +4,7 @@
             "outputFile": "com.app.freshrescue.app-mergeDebugResources-40:/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/flutter_barcode_scanner/intermediates/packaged_res/debug/values-w820dp-v13/values-w820dp-v13.xml",
+                    "source": "/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/flutter_barcode_scanner/intermediates/packaged_res/debug/values-w820dp-v13/values-w820dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

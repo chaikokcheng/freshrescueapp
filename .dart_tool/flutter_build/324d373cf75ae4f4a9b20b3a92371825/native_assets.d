@@ -1,0 +1,1 @@
+ /Users/chaikokcheng/Coding\ Environment/Flutter_Project/Kitahack2024/freshrescueapp/.dart_tool/flutter_build/324d373cf75ae4f4a9b20b3a92371825/native_assets.yaml: 

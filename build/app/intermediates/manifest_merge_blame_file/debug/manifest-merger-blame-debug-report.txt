@@ -12,28 +12,28 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/android/app/src/main/AndroidManifest.xml:52:1-61
-15-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/android/app/src/main/AndroidManifest.xml:52:18-58
+15-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:52:1-61
+15-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:52:18-58
 16
 17    <uses-feature
-17-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/android/app/src/main/AndroidManifest.xml:53:1-80
+17-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:53:1-80
 18        android:name="android.hardware.camera"
-18-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/android/app/src/main/AndroidManifest.xml:53:15-53
+18-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:53:15-53
 19        android:required="true" />
-19-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/android/app/src/main/AndroidManifest.xml:53:54-77
+19-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:53:54-77
 20    <uses-feature android:name="android.hardware.camera.autofocus" />
-20-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/android/app/src/main/AndroidManifest.xml:54:1-66
-20-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/android/app/src/main/AndroidManifest.xml:54:15-63
+20-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:54:1-66
+20-->/Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/android/app/src/main/AndroidManifest.xml:54:15-63
 21
 22    <uses-permission android:name="android.permission.FLASHLIGHT" />
-22-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-69
-22-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-66
+22-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-69
+22-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-66
 23    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-23-->[:camera_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-71
-23-->[:camera_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-68
+23-->[:camera_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-71
+23-->[:camera_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-68
 24    <!-- <uses-sdk android:minSdkVersion="14" /> -->
 25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 25-->[com.google.firebase:firebase-firestore:24.9.1] /Users/chaikokcheng/.gradle/caches/transforms-3/fd9c9f637e5bff160699a5a0256dd969/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:10:5-79
@@ -80,9 +80,9 @@
 49        android:icon="@mipmap/launcher_icon"
 50        android:label="FreshRescue"
 51        android:largeHeap="true"
-51-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-33
+51-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-33
 52        android:theme="@style/Theme.AppCompat.NoActionBar" >
-52-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-59
+52-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-59
 53        <activity
 54            android:name="com.app.freshrescue.MainActivity"
 55            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -127,37 +127,37 @@
 94            android:value="2" />
 95
 96        <service
-96-->[:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+96-->[:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
 97            android:name="com.google.firebase.components.ComponentDiscoveryService"
-97-->[:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
+97-->[:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
 98            android:directBootAware="true"
 98-->[com.google.firebase:firebase-common:20.4.2] /Users/chaikokcheng/.gradle/caches/transforms-3/58d5c0219203210e82c9e97f2d2dbb05/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
 99            android:exported="false" >
 99-->[com.google.firebase:firebase-firestore:24.9.1] /Users/chaikokcheng/.gradle/caches/transforms-3/fd9c9f637e5bff160699a5a0256dd969/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:16:13-37
 100            <meta-data
-100-->[:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+100-->[:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 101                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-101-->[:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-134
+101-->[:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-134
 102                android:value="com.google.firebase.components.ComponentRegistrar" />
-102-->[:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+102-->[:cloud_firestore] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 103            <meta-data
-103-->[:firebase_auth] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+103-->[:firebase_auth] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 104                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-104-->[:firebase_auth] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+104-->[:firebase_auth] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
 105                android:value="com.google.firebase.components.ComponentRegistrar" />
-105-->[:firebase_auth] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+105-->[:firebase_auth] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 106            <meta-data
-106-->[:firebase_storage] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+106-->[:firebase_storage] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 107                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-107-->[:firebase_storage] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-126
+107-->[:firebase_storage] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-126
 108                android:value="com.google.firebase.components.ComponentRegistrar" />
-108-->[:firebase_storage] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+108-->[:firebase_storage] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 109            <meta-data
-109-->[:firebase_core] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+109-->[:firebase_core] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 110                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-110-->[:firebase_core] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+110-->[:firebase_core] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
 111                android:value="com.google.firebase.components.ComponentRegistrar" />
-111-->[:firebase_core] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+111-->[:firebase_core] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 112            <meta-data
 112-->[com.google.firebase:firebase-firestore:24.9.1] /Users/chaikokcheng/.gradle/caches/transforms-3/fd9c9f637e5bff160699a5a0256dd969/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:17:13-19:85
 113                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
@@ -233,35 +233,35 @@
 148        </service>
 149
 150        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
-150-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-91
-150-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:16:19-88
+150-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-91
+150-->[:flutter_barcode_scanner] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:16:19-88
 151
 152        <provider
-152-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+152-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
 153            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-153-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-82
+153-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-82
 154            android:authorities="com.app.freshrescue.flutter.image_provider"
-154-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-74
+154-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-74
 155            android:exported="false"
-155-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+155-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
 156            android:grantUriPermissions="true" >
-156-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+156-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
 157            <meta-data
-157-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
+157-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
 158                android:name="android.support.FILE_PROVIDER_PATHS"
-158-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+158-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
 159                android:resource="@xml/flutter_image_picker_file_paths" />
-159-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
+159-->[:image_picker_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
 160        </provider>
 161
 162        <activity
-162-->[:url_launcher_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
+162-->[:url_launcher_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
 163            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-163-->[:url_launcher_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+163-->[:url_launcher_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
 164            android:exported="false"
-164-->[:url_launcher_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
+164-->[:url_launcher_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
 165            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-165-->[:url_launcher_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+165-->[:url_launcher_android] /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescueapp/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
 166        <activity
 166-->[com.google.firebase:firebase-auth:22.3.0] /Users/chaikokcheng/.gradle/caches/transforms-3/4e5f7206d1cb29945ccac3861d3cd002/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
 167            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
