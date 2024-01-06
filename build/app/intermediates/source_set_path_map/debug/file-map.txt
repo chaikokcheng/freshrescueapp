@@ -1,0 +1,58 @@
+com.app.freshrescue.app-jetified-annotation-experimental-1.3.0-0 /Users/chaikokcheng/.gradle/caches/transforms-3/0aa90e5a0bec19bd9f7946721c49e07c/transformed/jetified-annotation-experimental-1.3.0/res
+com.app.freshrescue.app-browser-1.5.0-1 /Users/chaikokcheng/.gradle/caches/transforms-3/0edec577bca8e593a700e2ec936634a8/transformed/browser-1.5.0/res
+com.app.freshrescue.app-jetified-window-java-1.0.0-beta04-2 /Users/chaikokcheng/.gradle/caches/transforms-3/1ded766fc1f144eb20c367ae0d4019e1/transformed/jetified-window-java-1.0.0-beta04/res
+com.app.freshrescue.app-jetified-appcompat-resources-1.2.0-3 /Users/chaikokcheng/.gradle/caches/transforms-3/2d428034f6d755d52878cf7270c6a8d3/transformed/jetified-appcompat-resources-1.2.0/res
+com.app.freshrescue.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-4 /Users/chaikokcheng/.gradle/caches/transforms-3/2e94e79041045d35802f0e13c8fc5bcc/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/res
+com.app.freshrescue.app-constraintlayout-2.0.1-5 /Users/chaikokcheng/.gradle/caches/transforms-3/2f927d2fe62f3df329db4607beff3018/transformed/constraintlayout-2.0.1/res
+com.app.freshrescue.app-lifecycle-viewmodel-2.6.1-6 /Users/chaikokcheng/.gradle/caches/transforms-3/39a6527212851854b82efb9328b674f9/transformed/lifecycle-viewmodel-2.6.1/res
+com.app.freshrescue.app-transition-1.2.0-7 /Users/chaikokcheng/.gradle/caches/transforms-3/469b1569c467d6bf6ae233b3b61d4e4f/transformed/transition-1.2.0/res
+com.app.freshrescue.app-lifecycle-livedata-core-2.6.1-8 /Users/chaikokcheng/.gradle/caches/transforms-3/483d429b035e64073ffa69f216ac5d00/transformed/lifecycle-livedata-core-2.6.1/res
+com.app.freshrescue.app-jetified-startup-runtime-1.1.1-9 /Users/chaikokcheng/.gradle/caches/transforms-3/4d8022eb0aed0f52108e4c82babb163f/transformed/jetified-startup-runtime-1.1.1/res
+com.app.freshrescue.app-jetified-play-services-measurement-api-21.5.0-10 /Users/chaikokcheng/.gradle/caches/transforms-3/588f1027a6646508b9b348f75c184bae/transformed/jetified-play-services-measurement-api-21.5.0/res
+com.app.freshrescue.app-jetified-firebase-common-20.4.2-11 /Users/chaikokcheng/.gradle/caches/transforms-3/58d5c0219203210e82c9e97f2d2dbb05/transformed/jetified-firebase-common-20.4.2/res
+com.app.freshrescue.app-jetified-play-services-auth-20.7.0-12 /Users/chaikokcheng/.gradle/caches/transforms-3/636cd73b35b7078c600919312ef3ab99/transformed/jetified-play-services-auth-20.7.0/res
+com.app.freshrescue.app-jetified-profileinstaller-1.3.0-13 /Users/chaikokcheng/.gradle/caches/transforms-3/676384726a6b0b6776ec6c6b63daa96d/transformed/jetified-profileinstaller-1.3.0/res
+com.app.freshrescue.app-jetified-savedstate-1.2.1-14 /Users/chaikokcheng/.gradle/caches/transforms-3/70008b8e4a022d92e1a9f1938b5c49b8/transformed/jetified-savedstate-1.2.1/res
+com.app.freshrescue.app-core-runtime-2.2.0-15 /Users/chaikokcheng/.gradle/caches/transforms-3/770d9c063ef95838ed907b80351ef0a2/transformed/core-runtime-2.2.0/res
+com.app.freshrescue.app-appcompat-1.2.0-16 /Users/chaikokcheng/.gradle/caches/transforms-3/7794809aea0ec89eff645393f94c9e62/transformed/appcompat-1.2.0/res
+com.app.freshrescue.app-jetified-play-services-basement-18.2.0-17 /Users/chaikokcheng/.gradle/caches/transforms-3/7d6aa49214c96119065a975eb3b9bc17/transformed/jetified-play-services-basement-18.2.0/res
+com.app.freshrescue.app-coordinatorlayout-1.1.0-18 /Users/chaikokcheng/.gradle/caches/transforms-3/948124c0f9b35c840841085a78b449fd/transformed/coordinatorlayout-1.1.0/res
+com.app.freshrescue.app-jetified-activity-1.7.2-19 /Users/chaikokcheng/.gradle/caches/transforms-3/9e11fd312cdb4cfec67081b7453b33f8/transformed/jetified-activity-1.7.2/res
+com.app.freshrescue.app-drawerlayout-1.1.1-20 /Users/chaikokcheng/.gradle/caches/transforms-3/9e58e97ef497d92df7856f3e94db1238/transformed/drawerlayout-1.1.1/res
+com.app.freshrescue.app-jetified-viewpager2-1.0.0-21 /Users/chaikokcheng/.gradle/caches/transforms-3/a1c6dd17618f8a599a9ccb29698fceb0/transformed/jetified-viewpager2-1.0.0/res
+com.app.freshrescue.app-recyclerview-1.1.0-22 /Users/chaikokcheng/.gradle/caches/transforms-3/b2f1947897ca123f8ce7a35f34639b83/transformed/recyclerview-1.1.0/res
+com.app.freshrescue.app-lifecycle-runtime-2.6.1-23 /Users/chaikokcheng/.gradle/caches/transforms-3/c539544d14a24721d426a886844d2053/transformed/lifecycle-runtime-2.6.1/res
+com.app.freshrescue.app-material-1.5.0-24 /Users/chaikokcheng/.gradle/caches/transforms-3/ccb51451a5501bcda9a8c787786b8a3a/transformed/material-1.5.0/res
+com.app.freshrescue.app-jetified-window-1.0.0-beta04-25 /Users/chaikokcheng/.gradle/caches/transforms-3/d4d8b400a6f6bc4083439e3cf02ae955/transformed/jetified-window-1.0.0-beta04/res
+com.app.freshrescue.app-jetified-ads-adservices-java-1.0.0-beta05-26 /Users/chaikokcheng/.gradle/caches/transforms-3/d6c15f553692df2e447535fb156cd790/transformed/jetified-ads-adservices-java-1.0.0-beta05/res
+com.app.freshrescue.app-cardview-1.0.0-27 /Users/chaikokcheng/.gradle/caches/transforms-3/d8e6d49c72c7db8086567ddbac008c17/transformed/cardview-1.0.0/res
+com.app.freshrescue.app-core-1.10.1-28 /Users/chaikokcheng/.gradle/caches/transforms-3/df8b1956b2fd6676a4fff4a4b4d97d8d/transformed/core-1.10.1/res
+com.app.freshrescue.app-jetified-play-services-base-18.0.1-29 /Users/chaikokcheng/.gradle/caches/transforms-3/e37a10b77183f4483d58ba99b2b520a1/transformed/jetified-play-services-base-18.0.1/res
+com.app.freshrescue.app-jetified-core-ktx-1.10.1-30 /Users/chaikokcheng/.gradle/caches/transforms-3/ec40a89609a7fbc081c6e02e4d605baf/transformed/jetified-core-ktx-1.10.1/res
+com.app.freshrescue.app-lifecycle-livedata-2.6.1-31 /Users/chaikokcheng/.gradle/caches/transforms-3/ee4de02ef23c347947258b6df3541a41/transformed/lifecycle-livedata-2.6.1/res
+com.app.freshrescue.app-media-1.0.0-32 /Users/chaikokcheng/.gradle/caches/transforms-3/ee596187d8d915862c0c9dfe0da88caa/transformed/media-1.0.0/res
+com.app.freshrescue.app-jetified-ads-adservices-1.0.0-beta05-33 /Users/chaikokcheng/.gradle/caches/transforms-3/f4404b4329b1a58e22aa86e9acd8b39f/transformed/jetified-ads-adservices-1.0.0-beta05/res
+com.app.freshrescue.app-debug-34 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/android/app/src/debug/res
+com.app.freshrescue.app-main-35 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/android/app/src/main/res
+com.app.freshrescue.app-pngs-36 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/app/generated/res/pngs/debug
+com.app.freshrescue.app-res-37 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/app/generated/res/processDebugGoogleServices
+com.app.freshrescue.app-resValues-38 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/app/generated/res/resValues/debug
+com.app.freshrescue.app-rs-39 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/app/generated/res/rs/debug
+com.app.freshrescue.app-mergeDebugResources-40 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.app.freshrescue.app-mergeDebugResources-41 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.app.freshrescue.app-merged_res-42 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/app/intermediates/merged_res/debug
+com.app.freshrescue.app-packaged_res-43 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/camera_android/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-44 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/cloud_firestore/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-45 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/device_info_plus/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-46 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/firebase_auth/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-47 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/firebase_core/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-48 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/firebase_storage/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-49 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/flutter_barcode_scanner/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-50 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-51 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/fluttertoast/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-52 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/google_sign_in_android/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-53 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/image_picker_android/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-54 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/shared_preferences_android/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-55 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/syncfusion_flutter_pdfviewer/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-56 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/tflite/intermediates/packaged_res/debug
+com.app.freshrescue.app-packaged_res-57 /Users/chaikokcheng/Coding Environment/Flutter_Project/Kitahack2024/freshrescue/build/url_launcher_android/intermediates/packaged_res/debug

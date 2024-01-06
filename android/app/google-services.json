@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "88654096413",
+    "project_id": "craftz7",
+    "storage_bucket": "craftz7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88654096413:android:349c39e6ee44a709847ef4",
+        "android_client_info": {
+          "package_name": "com.app.craftz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBN0_JxFxjtogrS0Sm_fmQokq7spgKN-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88654096413:android:f10efb38e1acbb17847ef4",
+        "android_client_info": {
+          "package_name": "com.app.freshrescue"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBN0_JxFxjtogrS0Sm_fmQokq7spgKN-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
