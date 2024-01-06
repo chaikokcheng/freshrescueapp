@@ -58,7 +58,7 @@ class HomeScreen extends StatelessWidget {
                     height: 10,
                   ),
                   Container(
-                    height: 173,
+                    height: 180,
                     child: ListView(
                       padding: EdgeInsets.zero,
                       scrollDirection: Axis.horizontal,
