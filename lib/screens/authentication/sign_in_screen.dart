@@ -36,6 +36,10 @@ class _EPSignInScreenState extends State<EPSignInScreen> {
 
   @override
   Widget build(BuildContext context) {
+    var keyboardIsOpen = MediaQuery.of(context).viewInsets.bottom != 0;
+    double logoHeight = keyboardIsOpen ? 80 : 160;
+    double titleSpacing = keyboardIsOpen ? 10 : 20;
+
     return GestureDetector(
       onTap: () {
         _emailFocusNode.unfocus();
@@ -55,62 +59,50 @@ class _EPSignInScreenState extends State<EPSignInScreen> {
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
                   children: [
-                    Row(),
                     Expanded(
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Flexible(
-                            flex: 1,
-                            child: Image.asset(
-                              'assets/icons/freshrescue.png',
-                              height: 160,
+                      child: AnimatedContainer(
+                        duration: Duration(milliseconds: 300),
+                        curve: Curves.easeOut,
+                        height: keyboardIsOpen
+                            ? MediaQuery.of(context).size.height / 2
+                            : null,
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Flexible(
+                              flex: 1,
+                              child: Image.asset(
+                                'assets/icons/freshrescue.png',
+                                height: logoHeight,
+                              ),
                             ),
-                          ),
-                          SizedBox(height: 20),
-                          Text(
-                            'FreshRescue',
-                            style: TextStyle(
-                              fontFamily: gilroyFontFamily,
-                              fontWeight: FontWeight.w600,
-                              color: AppColors.primaryColor,
-                              fontSize: 40,
+                            SizedBox(height: titleSpacing),
+                            AnimatedDefaultTextStyle(
+                              style: TextStyle(
+                                fontFamily: gilroyFontFamily,
+                                fontWeight: FontWeight.w600,
+                                color: AppColors.primaryColor,
+                                fontSize: keyboardIsOpen ? 20 : 40,
+                              ),
+                              duration: Duration(milliseconds: 300),
+                              curve: Curves.easeOut,
+                              child: Text('FreshRescue'),
                             ),
-                          ),
-                          Text(
-                            ' ',
-                            style: TextStyle(
-                              color: AppColors.primaryColor,
-                              fontSize: 40,
+                            Text(
+                              ' ',
+                              style: TextStyle(
+                                color: AppColors.primaryColor,
+                                fontSize: 40,
+                              ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
-                    FutureBuilder(
-                      future: _initializeFirebase(),
-                      builder: (context, snapshot) {
-                        if (snapshot.hasError) {
-                          return Text('Error initializing Firebase');
-                        } else if (snapshot.connectionState ==
-                            ConnectionState.done) {
-                          return EPSignInForm(
-                            emailFocusNode: _emailFocusNode,
-                            passwordFocusNode: _passwordFocusNode,
-                          );
-                        }
-                        return CircularProgressIndicator(
-                          valueColor: AlwaysStoppedAnimation<Color>(
-                            AppColors.primaryColor,
-                          ),
-                        );
-                      },
-                    )
-                    // SignInForm(
-                    //   emailFocusNode: _emailFocusNode,
-                    //   passwordFocusNode: _passwordFocusNode,
-                    // ),
+                    EPSignInForm(
+                      emailFocusNode: _emailFocusNode,
+                      passwordFocusNode: _passwordFocusNode,
+                    ),
                   ],
                 ),
               ),
