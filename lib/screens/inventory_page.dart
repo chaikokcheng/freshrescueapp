@@ -1,9 +1,12 @@
 import 'dart:io';
+import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
+import 'package:flutter_gemini/flutter_gemini.dart';
 import 'package:grocery_app/screens/dashboard/navigator_item.dart';
 import 'package:grocery_app/screens/education_page.dart';
+
 import 'package:grocery_app/styles/colors.dart';
 import 'package:grocery_app/tflite/pages/arscan.dart';
 import 'dart:convert';
@@ -12,6 +15,9 @@ import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter/services.dart';
+import 'package:camera/camera.dart';
+import 'dart:typed_data';
+import 'package:image_picker/image_picker.dart';
 
 class InventoryItem {
   String productName;
@@ -111,6 +117,155 @@ class _InventoryPageState extends State<InventoryPage> {
         fit: BoxFit.cover,
       );
     }
+  }
+
+  Future<XFile?> takePicture() async {
+    // Obtain a list of the available cameras.
+    final cameras = await availableCameras();
+
+    // Get a specific camera from the list of available cameras.
+    final firstCamera = cameras.first;
+
+    // To control the camera, create a CameraController.
+    final cameraController = CameraController(
+      firstCamera,
+      ResolutionPreset.medium,
+    );
+
+    // Next, initialize the controller. This returns a Future.
+    await cameraController.initialize();
+
+    // Take the Picture in a try / catch block. If anything goes wrong,
+    // catch the error.
+    try {
+      // Attempt to take a picture and get the file `image`
+      final image = await cameraController.takePicture();
+      return image;
+    } catch (e) {
+      // If an error occurs, log the error to the console.
+      print(e);
+      return null;
+    }
+  }
+
+  Future<void> sendImageToGeminiApp(XFile imageFile) async {
+    // Convert the image file to a byte array
+    Uint8List imageBytes = await imageFile.readAsBytes();
+
+    // Prepare the prompt
+    String prompt =
+        "Generate Recipe based on the ingredients in the picture, provide [Dish Name],[Ingredients],[Instructions],then blank 3 row";
+
+    // Use the Gemini instance to send the image and prompt
+    final gemini = Gemini.instance;
+
+    String recipeOutput = '';
+    int recipeCount = 0; // Counter to track the number of recipes generated
+
+    // Initialize and show the dialog once
+    showDialog(
+      context: context,
+      barrierDismissible:
+          false, // Prevents closing the dialog by tapping outside
+      builder: (BuildContext context) {
+        StreamSubscription?
+            streamSubscription; // Declare the StreamSubscription as nullable
+
+        return StatefulBuilder(
+          builder: (BuildContext context, StateSetter setState) {
+            // Start listening to the stream inside the dialog
+            streamSubscription = gemini
+                .streamGenerateContent(prompt, images: [imageBytes]).listen(
+              (response) {
+                // Update the dialog content using setState
+                setState(() {
+                  // Append the new output to the existing recipe output
+                  recipeOutput += response.output ?? '';
+                  recipeCount++;
+                });
+
+                if (recipeCount >= 3) {
+                  // Cancel the stream subscription after three recipes are generated
+                  streamSubscription?.cancel();
+                }
+              },
+              onDone: () {
+                // Optionally update the state to reflect that loading is complete
+                setState(() {});
+              },
+              onError: (error) {
+                // Optionally handle errors, such as updating the state with an error message
+                print("Error while processing image: $error");
+              },
+            );
+
+            return AlertDialog(
+              title: const Text('AI Generated Recipe'),
+              content: SingleChildScrollView(
+                child: ListBody(
+                  children: <Widget>[
+                    Image.file(File(imageFile.path),
+                        height: 100,
+                        width: 100,
+                        fit: BoxFit.cover), // Display the captured image
+                    Text(recipeOutput.isEmpty
+                        ? 'Generating recipes...'
+                        : recipeOutput),
+                  ],
+                ),
+              ),
+              actions: <Widget>[
+                TextButton(
+                  child: const Text('Close'),
+                  onPressed: () {
+                    streamSubscription
+                        ?.cancel(); // Cancel the stream when the dialog is closed
+                    Navigator.of(context).pop();
+                  },
+                ),
+              ],
+            );
+          },
+        );
+      },
+    );
+  }
+
+  Future<void> showConfirmationDialog(XFile imageFile) async {
+    return showDialog<void>(
+      context: context,
+      barrierDismissible: false, // User must tap a button to close the dialog
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('Confirm Picture'),
+          content: SingleChildScrollView(
+            child: ListBody(
+              children: <Widget>[
+                Image.file(File(imageFile.path)), // Display the captured image
+                const Text(
+                    'Would you like to use this picture to generate a recipe?'),
+              ],
+            ),
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: const Text('Cancel'),
+              onPressed: () {
+                Navigator.of(context).pop(); // Close the dialog
+              },
+            ),
+            TextButton(
+              child: const Text('Confirm'),
+              onPressed: () {
+                Navigator.of(context).pop(); // Close the dialog
+                sendImageToGeminiApp(
+                    imageFile); // Proceed to send the image to Gemini
+              },
+            ),
+          ],
+        );
+      },
+    );
   }
 
   void addToInventory(InventoryItem item) {
@@ -268,7 +423,49 @@ class _InventoryPageState extends State<InventoryPage> {
   }
 
   String recipeText = '';
+
   Future<void> generateRecipes() async {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Generate Recipe'),
+          content: SingleChildScrollView(
+            child: ListBody(
+              children: <Widget>[
+                TextButton(
+                  child: Text('Based on Selection'),
+                  onPressed: () {
+                    Navigator.of(context).pop(); // Close the dialog
+                    generateRecipesBasedOnSelection(); // Call the original recipe generation method
+                  },
+                ),
+                TextButton(
+                  child: Text('Take Picture'),
+                  onPressed: () async {
+                    XFile? imageFile = await takePicture();
+                    if (imageFile != null) {
+                      await showConfirmationDialog(imageFile);
+                    } else {
+                      // Handle the case when image capture is unsuccessful or cancelled
+                    }
+                  },
+                ),
+              ],
+            ),
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: Text('Cancel'),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  Future<void> generateRecipesBasedOnSelection() async {
     List<String> selectedProductNames = inventoryItems
         .where((item) => item.isSelected)
         .map((item) => item.productName)

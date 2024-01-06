@@ -1,5 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gemini/flutter_gemini.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:grocery_app/screens/welcome_screen.dart';
 import 'package:provider/provider.dart';
@@ -14,6 +15,8 @@ late List<CameraDescription> cameras;
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   cameras = await availableCameras();
+  Gemini.init(
+      apiKey: 'AIzaSyBNNy1Kz7MvIeqaCwCfHQFEISKp1cXFr6Q', enableDebugging: true);
   runApp(MultiProvider(
     providers: [
       Provider<NavigationService>(create: (_) => NavigationService()),
