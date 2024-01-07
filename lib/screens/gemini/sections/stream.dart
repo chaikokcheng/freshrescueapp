@@ -6,6 +6,8 @@ import 'package:grocery_app/screens/gemini/widgets/item_image_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:grocery_app/styles/colors.dart';
+import 'package:grocery_app/tflite/app_resources.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:lottie/lottie.dart';
 
@@ -40,7 +42,7 @@ class _SectionTextInputStreamState extends State<SectionTextStreamInput> {
       children: [
         if (searchedText != null)
           MaterialButton(
-              color: Colors.blue.shade700,
+              color: Colors.green,
               onPressed: () {
                 setState(() {
                   searchedText = null;
@@ -61,7 +63,8 @@ class _SectionTextInputStreamState extends State<SectionTextStreamInput> {
                 selectable: true,
               );
             } else {
-              return const Center(child: Text('Search something!'));
+              return const Center(
+                  child: Text('Try : Generate recipe for Nasi Lemak'));
             }
           },
         )),

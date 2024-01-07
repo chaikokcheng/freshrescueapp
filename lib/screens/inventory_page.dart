@@ -6,6 +6,7 @@ import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
 import 'package:grocery_app/screens/dashboard/navigator_item.dart';
 import 'package:grocery_app/screens/education_page.dart';
+import 'package:grocery_app/screens/gemini/geminiapp.dart';
 
 import 'package:grocery_app/styles/colors.dart';
 import 'package:grocery_app/tflite/pages/arscan.dart';
@@ -119,33 +120,58 @@ class _InventoryPageState extends State<InventoryPage> {
     }
   }
 
-  Future<XFile?> takePicture() async {
-    // Obtain a list of the available cameras.
-    final cameras = await availableCameras();
+  CameraController? _cameraController;
+  bool _isCameraInitialized = false;
+  bool _isCameraPreviewShown = false;
+  XFile? _capturedImage;
 
-    // Get a specific camera from the list of available cameras.
+  @override
+  void initState() {
+    super.initState();
+    loadInventory();
+    initCamera(); // Initialize the camera
+  }
+
+  Future<void> initCamera() async {
+    final cameras = await availableCameras();
     final firstCamera = cameras.first;
 
-    // To control the camera, create a CameraController.
-    final cameraController = CameraController(
+    _cameraController = CameraController(
       firstCamera,
       ResolutionPreset.medium,
     );
 
-    // Next, initialize the controller. This returns a Future.
-    await cameraController.initialize();
+    await _cameraController!.initialize();
 
-    // Take the Picture in a try / catch block. If anything goes wrong,
-    // catch the error.
+    setState(() {});
+  }
+
+  Widget cameraPreviewWidget() {
+    if (_cameraController == null || !_cameraController!.value.isInitialized) {
+      return const Text('Loading Camera...');
+    }
+    return CameraPreview(_cameraController!); // Display the camera preview
+  }
+
+  Future<XFile?> takePicture() async {
+    if (_cameraController == null || !_cameraController!.value.isInitialized) {
+      print('Error: Camera not initialized');
+      return null;
+    }
+
     try {
-      // Attempt to take a picture and get the file `image`
-      final image = await cameraController.takePicture();
+      final image = await _cameraController!.takePicture();
       return image;
     } catch (e) {
-      // If an error occurs, log the error to the console.
       print(e);
       return null;
     }
+  }
+
+  @override
+  void dispose() {
+    _cameraController?.dispose();
+    super.dispose();
   }
 
   Future<void> sendImageToGeminiApp(XFile imageFile) async {
@@ -386,12 +412,12 @@ class _InventoryPageState extends State<InventoryPage> {
     );
   }
 
-  void initState() {
-    super.initState();
-    loadInventory();
-    // Generate mockup data
-    // generateMockupData();
-  }
+  // void initState() {
+  //   super.initState();
+  //   loadInventory();
+  //   // Generate mockup data
+  //   // generateMockupData();
+  // }
 
   void loadInventory() async {
     final prefs = await SharedPreferences.getInstance();
@@ -450,6 +476,16 @@ class _InventoryPageState extends State<InventoryPage> {
                       // Handle the case when image capture is unsuccessful or cancelled
                     }
                   },
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                          builder: (context) => MyHomePage()), //GEMINI PAGE
+                    );
+                  },
+                  child: Text('AI Chatbot'),
                 ),
               ],
             ),

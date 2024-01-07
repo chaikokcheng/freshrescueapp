@@ -20,9 +20,9 @@ class GeminiApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primaryColor),
         appBarTheme: AppBarTheme(
           backgroundColor: AppColors.primaryColor,
-          iconTheme: IconThemeData(color: Colors.white),
+          // iconTheme: IconThemeData(color: Colors.white),
         ),
-        cardTheme: CardTheme(color: AppColors.primaryColor),
+        cardTheme: CardTheme(color: Colors.white12),
       ),
       debugShowCheckedModeBanner: false,
       home: const MyHomePage(),
@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _selectedItem = 0;
 
   final _sections = <SectionItem>[
-    SectionItem(0, 'Stream text', const SectionTextStreamInput()),
+    SectionItem(0, 'Recipe AI Chatbot', const SectionTextStreamInput()),
     SectionItem(1, 'textAndImage', const SectionTextAndImageInput()),
     SectionItem(2, 'chat', const SectionChat()),
     SectionItem(3, 'text', const SectionTextInput()),
